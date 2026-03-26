@@ -1,3 +1,7 @@
+// Volta ao topo ao fazer refresh
+history.scrollRestoration = "manual";
+window.scrollTo(0, 0);
+
 // ── REGISTO PRIMEIRO ─────────────────────────────────────
 gsap.registerPlugin(ScrollTrigger);
 
